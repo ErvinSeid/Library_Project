@@ -1,0 +1,425 @@
+{
+	"id": "7d05fa4a-a64b-4543-be88-d5ef24740359",
+	"name": "Immedis",
+	"timestamp": "2023-08-31T11:08:37.569Z",
+	"collection_id": "21192875-bc809815-11cc-4ee0-a265-405a45ea0462",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-31T11:08:34.927Z",
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "9722f8b3-be7e-4958-9d24-656185016e06",
+			"name": "Get user by ID",
+			"url": "http://qa-task.immedis.com/api/users/1465",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5a33ed97-f0ea-48ae-8118-bb175ff8e932",
+			"name": "Get all users",
+			"url": "http://qa-task.immedis.com/api/users",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d635188b-0ea6-4cea-a498-22e5aca3eb0d",
+			"name": "Create user",
+			"url": "http://qa-task.immedis.com/api/users/",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Successful POST request": false
+				}
+			]
+		},
+		{
+			"id": "754a6d73-a206-4160-8fbe-6e3671c89bde",
+			"name": "Update user by its ID",
+			"url": "http://qa-task.immedis.com/api/users/15",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "a7c3da16-9d82-4430-b016-28febca38643",
+			"name": "Delete user by its ID",
+			"url": "http://qa-task.immedis.com/api/users/14",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cde3a2e7-b34a-42b2-b620-a0df322c7e44",
+			"name": "Add new book",
+			"url": "http://qa-task.immedis.com/api/books",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Successful POST request": false
+				}
+			]
+		},
+		{
+			"id": "127a3930-7422-4bf2-a45b-54a5d0718f59",
+			"name": "Get all books",
+			"url": "http://qa-task.immedis.com/api/books",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8224dfb3-24aa-4e12-9c3f-77d222b6aa5e",
+			"name": "Get book by ID",
+			"url": "http://qa-task.immedis.com/api/books/1508",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "12088838-73d1-4c02-b5f7-324f407c2852",
+			"name": "Update book by its ID",
+			"url": "http://qa-task.immedis.com/api/books/1508",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Successful POST request": false
+				}
+			]
+		},
+		{
+			"id": "b19223ec-3f4a-417d-89c9-ada3f6471a71",
+			"name": "Delete book by ID",
+			"url": "http://qa-task.immedis.com/api/books/3",
+			"time": 65,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "666991ab-8221-4128-889d-e975439cd0a0",
+			"name": "Take a book",
+			"url": "http://qa-task.immedis.com/api/getbook",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "564f56ab-1940-44e2-b323-1e1088685f06",
+			"name": "Get all books that are taken",
+			"url": "http://qa-task.immedis.com/api/getbook",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "27c47b3c-dac4-47f1-b580-b3dc7452e1e4",
+			"name": "Return a book by giving GetBook ID",
+			"url": "http://qa-task.immedis.com/api/getbook/6",
+			"time": 65,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 878,
+	"collection": {
+		"requests": [
+			{
+				"id": "9722f8b3-be7e-4958-9d24-656185016e06",
+				"method": "GET"
+			},
+			{
+				"id": "5a33ed97-f0ea-48ae-8118-bb175ff8e932",
+				"method": "GET"
+			},
+			{
+				"id": "d635188b-0ea6-4cea-a498-22e5aca3eb0d",
+				"method": "POST"
+			},
+			{
+				"id": "754a6d73-a206-4160-8fbe-6e3671c89bde",
+				"method": "PUT"
+			},
+			{
+				"id": "a7c3da16-9d82-4430-b016-28febca38643",
+				"method": "DELETE"
+			},
+			{
+				"id": "cde3a2e7-b34a-42b2-b620-a0df322c7e44",
+				"method": "POST"
+			},
+			{
+				"id": "127a3930-7422-4bf2-a45b-54a5d0718f59",
+				"method": "GET"
+			},
+			{
+				"id": "8224dfb3-24aa-4e12-9c3f-77d222b6aa5e",
+				"method": "GET"
+			},
+			{
+				"id": "12088838-73d1-4c02-b5f7-324f407c2852",
+				"method": "PUT"
+			},
+			{
+				"id": "b19223ec-3f4a-417d-89c9-ada3f6471a71",
+				"method": "DELETE"
+			},
+			{
+				"id": "666991ab-8221-4128-889d-e975439cd0a0",
+				"method": "POST"
+			},
+			{
+				"id": "564f56ab-1940-44e2-b323-1e1088685f06",
+				"method": "GET"
+			},
+			{
+				"id": "27c47b3c-dac4-47f1-b580-b3dc7452e1e4",
+				"method": "DELETE"
+			}
+		]
+	}
+}
